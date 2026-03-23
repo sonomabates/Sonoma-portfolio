@@ -53,7 +53,7 @@ export default function Home() {
       </section>
 
       {/* LAURA PARIS SOCIAL SECTION */}
-<section className="max-w-6xl mx-auto px-6 py-16 bg-[#F6E9D8] border-t border-[#EADBC8]">        <h2 className="text-2xl font-semibold mb-4">
+<section className="-w-6xl maxmx-auto px-6 py-16 bg-[#F6E9D8] border-t border-[#EADBC8]">        <h2 className="text-2xl font-semibold mb-4">
           Paris Healing Arts — Social Media
         </h2>
 
@@ -99,7 +99,7 @@ export default function Home() {
   
   <div className="h-px w-12 bg-[#3A5A7A] mb-6"></div>
 
-  <h2 className="text-[22px] font-medium mb-4 text-[#3A5A7A] tracking-tight">
+  <h2 className="text-[22px] w-6xl maxmx-auto px-6 py-16 text-[#3A5A7A] tracking-tight">
     Kirby School — Social Media
   </h2>
 
