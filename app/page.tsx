@@ -53,7 +53,7 @@ export default function Home() {
       </section>
 
       {/* LAURA PARIS SOCIAL SECTION */}
-<section className="-w-6xl maxmx-auto px-6 py-16 bg-[#F6E9D8] border-t border-[#EADBC8]">        <h2 className="text-2xl font-semibold mb-4">
+<section className="max-w-6xl mx-auto px-6 py-16 bg-[#F6E9D8] border-t border-[#EADBC8]">        <h2 className="text-2xl font-semibold mb-4">
           Paris Healing Arts — Social Media
         </h2>
 
