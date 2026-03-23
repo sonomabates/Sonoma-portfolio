@@ -3,18 +3,16 @@ export default function Home() {
     <main className="bg-white text-black">
       <section className="max-w-6xl mx-auto px-6 py-20">
         <p className="text-sm uppercase tracking-[0.2em] text-gray-500 mb-4">
-          Sonoma Bates
-        </p>
+  Sonoma Bates
+</p>
 
-        <h1 className="text-4xl md:text-6xl font-semibold leading-tight max-w-4xl">
-          Strategic communications, content, and storytelling for schools,
-          health brands, and mission-driven organizations.
-        </h1>
+<h1 className="text-4xl md:text-6xl font-semibold leading-tight max-w-4xl">
+  Strategic communications for schools, founders, and health brands.
+</h1>
 
-        <p className="mt-6 text-lg text-gray-600 max-w-2xl">
-          I create thoughtful social media, blog content, newsletters, and
-          campaigns that build trust, clarity, and move audiences to act.
-        </p>
+<p className="mt-6 text-lg text-gray-600 max-w-2xl">
+  I build content systems that clarify ideas, strengthen trust, and drive meaningful engagement—across social media, email, and long-form storytelling.
+</p>
       </section>
 
       <section className="max-w-6xl mx-auto px-6 py-16 border-t border-gray-200">
