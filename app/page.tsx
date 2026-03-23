@@ -18,8 +18,8 @@ export default function Home() {
 </section>
 
       {/* SELECTED WORK */}
-      <section className="max-w-6xl mx-auto px-6 py-16 bg-[#FFFDF8] border-t border-[#EADBC8]">
-        <h2 className="text-2xl font-semibold mb-8">Selected Work</h2>
+      <section className="max-w-5xl mx-auto px-6 py-16 bg-[#FFFDF8] border-t border-[#EADBC8]">
+        <h2 className="text-[22px] font-medium mb-10 text-[#4A4136] tracking-tight">Selected Work</h2>
 
         <div className="grid md:grid-cols-2 gap-6">
           <div className="border border-gray-200 rounded-2xl p-6">
