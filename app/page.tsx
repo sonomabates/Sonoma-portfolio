@@ -2,8 +2,7 @@ import Script from "next/script";
 
 export default function Home() {
   return (
-    <main className="bg-white text-black">
-      
+<main className="bg-[#FBF6EE] text-[#3B342B]">      
       {/* HERO */}
       <section className="max-w-6xl mx-auto px-6 py-20">
         <p className="text-sm uppercase tracking-[0.2em] text-gray-500 mb-4">
@@ -93,7 +92,7 @@ export default function Home() {
 
         {/* OPTIONAL LINK */}
         <a
-          href="https://www.instagram.com/"
+          href="https://www.instagram.com/dr.lauraparis/"
           target="_blank"
           rel="noopener noreferrer"
           className="inline-block mt-8 text-sm underline underline-offset-4"
