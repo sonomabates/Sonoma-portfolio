@@ -1,8 +1,41 @@
+import script from "next/script";
 import Script from "next/script";
 import Link from "next/link";
-<main className="bg-[#FBF6EE] text-[#3B342B]"></main>
+
 export default function Home() {
   return (
+    <main className="bg-[#FBF6EE] text-[#3B342B]">
+
+      {/* NAV BAR */}
+      <nav className="max-w-6xl mx-auto px-6 py-6 flex items-center justify-between">
+        <Link
+          href="/"
+          className="text-sm uppercase tracking-[0.2em] text-[#C97A5A]"
+        >
+          Sonoma Bates
+        </Link>
+
+        <div className="flex items-center gap-6 text-sm text-[#6A6156]">
+          <Link href="/">Home</Link>
+          <Link href="/paris">Paris</Link>
+          <Link href="/kirby">Kirby</Link>
+          <Link href="/about">About</Link>
+          <Link href="/contact">Contact</Link>
+        </div>
+      </nav>
+
+      {/* HERO */}
+      <section className="max-w-6xl mx-auto px-6 py-24">
+        <h1 className="text-4xl md:text-6xl font-semibold">
+          Strategic communications for schools, founders, and health brands.
+        </h1>
+      </section>
+
+      <Script src="https://www.instagram.com/embed.js" />
+
+    </main>
+  );
+}
 <main className="bg-[#FBF6EE] text-[#3B342B]">      
       {/* HERO */}
 <section className="max-w-6xl mx-auto px-6 py-24 bg-gradient-to-b from-[#FFF6E8] to-[#FBF6EE]">  <p className="text-sm uppercase tracking-[0.2em] text-[#C97A5A] mb-4">
@@ -178,5 +211,3 @@ export default function Home() {
         strategy="lazyOnload"
       />
     </main>
-  );
-}
