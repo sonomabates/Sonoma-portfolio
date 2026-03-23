@@ -13,7 +13,7 @@ export default function Home() {
 
         <p className="mt-6 text-lg text-gray-600 max-w-2xl">
           I create thoughtful social media, blog content, newsletters, and
-          campaigns that build trust, clarify ideas, and move audiences to act.
+          campaigns that build trust, clarity, and move audiences to act.
         </p>
       </section>
 
