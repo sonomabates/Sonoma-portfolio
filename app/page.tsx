@@ -1,5 +1,6 @@
 import Script from "next/script";
-
+import Link from "next/link";
+<main className="bg-[#FBF6EE] text-[#3B342B]"></main>
 export default function Home() {
   return (
 <main className="bg-[#FBF6EE] text-[#3B342B]">      
