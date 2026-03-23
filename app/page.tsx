@@ -4,19 +4,19 @@ export default function Home() {
   return (
 <main className="bg-[#FBF6EE] text-[#3B342B]">      
       {/* HERO */}
-      <section className="max-w-6xl mx-auto px-6 py-20">
-        <p className="text-sm uppercase tracking-[0.2em] text-gray-500 mb-4">
-          Sonoma Bates
-        </p>
+      <section className="max-w-6xl mx-auto px-6 py-24">
+  <p className="text-sm uppercase tracking-[0.2em] text-[#C97A5A] mb-4">
+    Sonoma Bates
+  </p>
 
-        <h1 className="text-4xl md:text-6xl font-semibold leading-tight max-w-4xl">
-          Strategic communications for schools, founders, and health brands.
-        </h1>
+  <h1 className="text-4xl md:text-6xl font-semibold leading-tight max-w-4xl">
+    Strategic communications for schools, founders, and health brands.
+  </h1>
 
-        <p className="mt-6 text-lg text-gray-600 max-w-2xl">
-          I build content systems that clarify ideas, strengthen trust, and drive meaningful engagement—across social media, email, and long-form storytelling.
-        </p>
-      </section>
+  <p className="mt-6 text-lg text-[#6A6156] max-w-2xl leading-8">
+    I build content systems that clarify ideas, strengthen trust, and drive meaningful engagement—across social media, email, and long-form storytelling.
+  </p>
+</section>
 
       {/* SELECTED WORK */}
       <section className="max-w-6xl mx-auto px-6 py-16 border-t border-gray-200">
