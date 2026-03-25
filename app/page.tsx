@@ -116,7 +116,7 @@ export default function Home() {
         <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
           <a
             href="#work-social"
-            className="group block border border-[#EADBC8] rounded-2xl p-6 bg-[#FFFDF8] shadow-[0_6px_24px_rgba(180,140,80,0.08)] transition-shadow hover:shadow-[0_10px_32px_rgba(180,140,80,0.14)] hover:border-[#D4C4B0] text-inherit no-underline focus:outline-none focus-visible:ring-2 focus-visible:ring-[#C97A5A] focus-visible:ring-offset-2"
+            className="group block border border-[#EADBC8] rounded-2xl p-6 bg-[#FFFDF8] shadow-[0_6px_24px_rgba(180,140,80,0.08)] text-inherit no-underline transition-all duration-200 ease-out hover:-translate-y-1 hover:shadow-[0_12px_36px_rgba(180,140,80,0.16)] hover:border-[#D4C4B0] focus:outline-none focus-visible:ring-2 focus-visible:ring-[#C97A5A] focus-visible:ring-offset-2"
           >
             <h3 className="text-xl font-medium text-[#4A4136] group-hover:text-[#C97A5A] transition-colors">
               Social Media & Campaigns
@@ -130,7 +130,7 @@ export default function Home() {
 
           <a
             href="#work-newsletter"
-            className="group block border border-[#EADBC8] rounded-2xl p-6 bg-[#FFFDF8] shadow-[0_6px_24px_rgba(180,140,80,0.08)] transition-shadow hover:shadow-[0_10px_32px_rgba(180,140,80,0.14)] hover:border-[#D4C4B0] text-inherit no-underline focus:outline-none focus-visible:ring-2 focus-visible:ring-[#C97A5A] focus-visible:ring-offset-2"
+            className="group block border border-[#EADBC8] rounded-2xl p-6 bg-[#FFFDF8] shadow-[0_6px_24px_rgba(180,140,80,0.08)] text-inherit no-underline transition-all duration-200 ease-out hover:-translate-y-1 hover:shadow-[0_12px_36px_rgba(180,140,80,0.16)] hover:border-[#D4C4B0] focus:outline-none focus-visible:ring-2 focus-visible:ring-[#C97A5A] focus-visible:ring-offset-2"
           >
             <h3 className="text-xl font-medium text-[#4A4136] group-hover:text-[#C97A5A] transition-colors">
               Email & Newsletter Strategy
@@ -139,7 +139,7 @@ export default function Home() {
               Emails and newsletters that are clear, consistent, and built to
               keep an audience engaged over time.
             </p>
-            <p className="mt-4 text-sm text-[#C97A5A]">View newsletter sample →</p>
+            <p className="mt-4 text-sm text-[#C97A5A]">View newsletter samples →</p>
           </a>
 
           <a
