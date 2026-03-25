@@ -1,13 +1,20 @@
 import Image from "next/image";
 import Script from "next/script";
 
-const parisGutMicrobiomePost = {
-  href: "https://parishealingarts.com/why-the-gut-microbiome-matters-more-than-youve-been-told/",
-  title: "Why the Gut Microbiome Matters More Than You’ve Been Told",
-  image:
-    "https://parishealingarts.com/wp-content/uploads/2025/09/Why-Your-Gut-Health-Matters-More-than-Youve-Been-Told-3.webp",
-  client: "Paris Healing Arts",
-};
+const parisBlogPosts = [
+  {
+    href: "https://parishealingarts.com/why-the-gut-microbiome-matters-more-than-youve-been-told/",
+    title: "Why the Gut Microbiome Matters More Than You’ve Been Told",
+    image:
+      "https://parishealingarts.com/wp-content/uploads/2025/09/Why-Your-Gut-Health-Matters-More-than-Youve-Been-Told-3.webp",
+  },
+  {
+    href: "https://parishealingarts.com/when-gut-bugs-go-rogue-understanding-dysbiosis/",
+    title: "When Gut Bugs Go Rogue: Understanding Dysbiosis",
+    image:
+      "https://parishealingarts.com/wp-content/uploads/2025/10/DX-SIBO.webp",
+  },
+] as const;
 
 const parisEmbed1 = `
 <blockquote class="instagram-media" data-instgrm-captioned data-instgrm-permalink="https://www.instagram.com/p/DTTLjoij3aB/?utm_source=ig_embed&amp;utm_campaign=loading" data-instgrm-version="14" style=" background:#FFF; border:0; border-radius:12px; box-shadow:0 0 1px 0 rgba(0,0,0,0.08),0 8px 24px 0 rgba(120,90,40,0.08); margin: 1px; max-width:540px; min-width:326px; padding:0; width:99.375%; width:-webkit-calc(100% - 2px); width:calc(100% - 2px);">
@@ -321,34 +328,38 @@ export default function Home() {
         </p>
 
         <p className="text-sm uppercase tracking-[0.15em] text-[#C97A5A] mb-6">
-          {parisGutMicrobiomePost.client}
+          Paris Healing Arts
         </p>
 
-        <div className="max-w-lg">
-          <a
-            href={parisGutMicrobiomePost.href}
-            target="_blank"
-            rel="noopener noreferrer"
-            className="group block overflow-hidden rounded-2xl border border-[#EADBC8] bg-[#FFFDF8] shadow-[0_6px_24px_rgba(180,140,80,0.08)] transition-shadow hover:shadow-[0_12px_32px_rgba(180,140,80,0.14)] hover:border-[#D4C4B0] text-inherit no-underline focus:outline-none focus-visible:ring-2 focus-visible:ring-[#C97A5A] focus-visible:ring-offset-2"
-          >
-            <div className="relative aspect-[16/10] w-full bg-[#F4EDE3]">
-              <Image
-                src={parisGutMicrobiomePost.image}
-                alt={parisGutMicrobiomePost.title}
-                fill
-                className="object-cover transition-transform duration-300 group-hover:scale-[1.02]"
-                sizes="(max-width: 768px) 100vw, 512px"
-              />
-            </div>
-            <div className="p-5">
-              <h3 className="text-lg font-medium text-[#4A4136] leading-snug group-hover:text-[#C97A5A] transition-colors">
-                {parisGutMicrobiomePost.title}
-              </h3>
-              <p className="mt-3 text-sm text-[#C97A5A]">
-                Read on parishealingarts.com →
-              </p>
-            </div>
-          </a>
+        <div className="grid gap-8 sm:grid-cols-2 max-w-4xl">
+          {parisBlogPosts.map((post) => (
+            <a
+              key={post.href}
+              href={post.href}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="group block overflow-hidden rounded-2xl border border-[#EADBC8] bg-[#FFFDF8] shadow-[0_6px_24px_rgba(180,140,80,0.08)] transition-shadow hover:shadow-[0_12px_32px_rgba(180,140,80,0.14)] hover:border-[#D4C4B0] text-inherit no-underline focus:outline-none focus-visible:ring-2 focus-visible:ring-[#C97A5A] focus-visible:ring-offset-2"
+            >
+              <div className="relative aspect-[16/10] w-full min-h-[160px] bg-[#F4EDE3]">
+                <Image
+                  src={post.image}
+                  alt={post.title}
+                  fill
+                  unoptimized
+                  className="object-cover transition-transform duration-300 group-hover:scale-[1.02]"
+                  sizes="(max-width: 640px) 100vw, 50vw"
+                />
+              </div>
+              <div className="p-5">
+                <h3 className="text-lg font-medium text-[#4A4136] leading-snug group-hover:text-[#C97A5A] transition-colors">
+                  {post.title}
+                </h3>
+                <p className="mt-3 text-sm text-[#C97A5A]">
+                  Read on parishealingarts.com →
+                </p>
+              </div>
+            </a>
+          ))}
         </div>
       </section>
 
