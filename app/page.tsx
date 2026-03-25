@@ -72,7 +72,7 @@ const kirbyEmbed2 = `
 
 export default function Home() {
   return (
-    <main className="bg-[#FBF6EE] text-[#3B342B]">
+    <main id="top" className="bg-[#FBF6EE] text-[#3B342B]">
       <section className="max-w-6xl mx-auto px-6 py-24 bg-gradient-to-b from-[#FFF6E8] to-[#FBF6EE]">
         <p className="text-sm uppercase tracking-[0.2em] text-[#C97A5A] mb-4">
           Sonoma Bates
