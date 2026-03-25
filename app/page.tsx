@@ -1,4 +1,13 @@
+import Image from "next/image";
 import Script from "next/script";
+
+const parisGutMicrobiomePost = {
+  href: "https://parishealingarts.com/why-the-gut-microbiome-matters-more-than-youve-been-told/",
+  title: "Why the Gut Microbiome Matters More Than You’ve Been Told",
+  image:
+    "https://parishealingarts.com/wp-content/uploads/2025/09/Why-Your-Gut-Health-Matters-More-than-Youve-Been-Told-3.webp",
+  client: "Paris Healing Arts",
+};
 
 const parisEmbed1 = `
 <blockquote class="instagram-media" data-instgrm-captioned data-instgrm-permalink="https://www.instagram.com/p/DTTLjoij3aB/?utm_source=ig_embed&amp;utm_campaign=loading" data-instgrm-version="14" style=" background:#FFF; border:0; border-radius:12px; box-shadow:0 0 1px 0 rgba(0,0,0,0.08),0 8px 24px 0 rgba(120,90,40,0.08); margin: 1px; max-width:540px; min-width:326px; padding:0; width:99.375%; width:-webkit-calc(100% - 2px); width:calc(100% - 2px);">
@@ -94,7 +103,7 @@ export default function Home() {
           Selected Work
         </h2>
 
-        <div className="grid md:grid-cols-2 gap-6">
+        <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
           <a
             href="#work-social"
             className="group block border border-[#EADBC8] rounded-2xl p-6 bg-[#FFFDF8] shadow-[0_6px_24px_rgba(180,140,80,0.08)] transition-shadow hover:shadow-[0_10px_32px_rgba(180,140,80,0.14)] hover:border-[#D4C4B0] text-inherit no-underline focus:outline-none focus-visible:ring-2 focus-visible:ring-[#C97A5A] focus-visible:ring-offset-2"
@@ -121,6 +130,21 @@ export default function Home() {
               inform, retain, and guide audiences toward action.
             </p>
             <p className="mt-4 text-sm text-[#C97A5A]">View newsletter sample →</p>
+          </a>
+
+          <a
+            href="#work-blog"
+            className="group block border border-[#EADBC8] rounded-2xl p-6 bg-[#FFFDF8] shadow-[0_6px_24px_rgba(180,140,80,0.08)] transition-shadow hover:shadow-[0_10px_32px_rgba(180,140,80,0.14)] hover:border-[#D4C4B0] text-inherit no-underline focus:outline-none focus-visible:ring-2 focus-visible:ring-[#C97A5A] focus-visible:ring-offset-2 sm:col-span-2 lg:col-span-1"
+          >
+            <h3 className="text-xl font-medium text-[#4A4136] group-hover:text-[#C97A5A] transition-colors">
+              Blog & long-form
+            </h3>
+            <p className="mt-3 text-[#6A6156] leading-7">
+              Educational articles that unpack complex health topics for a
+              general audience—clear structure, strong voice, and SEO-aware
+              framing.
+            </p>
+            <p className="mt-4 text-sm text-[#C97A5A]">View writing samples →</p>
           </a>
         </div>
       </section>
@@ -278,6 +302,52 @@ export default function Home() {
             <p className="text-lg font-medium text-[#3A5A7A] leading-snug underline underline-offset-4 decoration-[#3A5A7A]/35">
               The Wave: February 25, 2026
             </p>
+          </a>
+        </div>
+      </section>
+
+      <section
+        id="work-blog"
+        className="max-w-6xl mx-auto px-6 py-16 bg-[#FBF6EE] border-t border-[#EADBC8] scroll-mt-6"
+      >
+        <div className="h-px w-12 bg-[#C97A5A] mb-6"></div>
+
+        <h2 className="text-2xl font-semibold mb-4 text-[#4A4136]">
+          Blog & long-form
+        </h2>
+        <p className="text-[#6A6156] max-w-2xl leading-8 mb-10">
+          Long-form pieces written for clinical and wellness brands—bridging
+          research, practice, and the questions patients actually ask.
+        </p>
+
+        <p className="text-sm uppercase tracking-[0.15em] text-[#C97A5A] mb-6">
+          {parisGutMicrobiomePost.client}
+        </p>
+
+        <div className="max-w-lg">
+          <a
+            href={parisGutMicrobiomePost.href}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="group block overflow-hidden rounded-2xl border border-[#EADBC8] bg-[#FFFDF8] shadow-[0_6px_24px_rgba(180,140,80,0.08)] transition-shadow hover:shadow-[0_12px_32px_rgba(180,140,80,0.14)] hover:border-[#D4C4B0] text-inherit no-underline focus:outline-none focus-visible:ring-2 focus-visible:ring-[#C97A5A] focus-visible:ring-offset-2"
+          >
+            <div className="relative aspect-[16/10] w-full bg-[#F4EDE3]">
+              <Image
+                src={parisGutMicrobiomePost.image}
+                alt={parisGutMicrobiomePost.title}
+                fill
+                className="object-cover transition-transform duration-300 group-hover:scale-[1.02]"
+                sizes="(max-width: 768px) 100vw, 512px"
+              />
+            </div>
+            <div className="p-5">
+              <h3 className="text-lg font-medium text-[#4A4136] leading-snug group-hover:text-[#C97A5A] transition-colors">
+                {parisGutMicrobiomePost.title}
+              </h3>
+              <p className="mt-3 text-sm text-[#C97A5A]">
+                Read on parishealingarts.com →
+              </p>
+            </div>
           </a>
         </div>
       </section>
