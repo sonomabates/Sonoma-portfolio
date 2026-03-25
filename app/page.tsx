@@ -226,29 +226,27 @@ export default function Home() {
         <h2 className="text-2xl font-semibold mb-4 text-[#4A4136]">
           Email & Newsletter Strategy
         </h2>
-        <p className="text-[#6A6156] max-w-2xl leading-8 mb-8">
-          Campaign and educational newsletters that translate complex topics
-          into clear, actionable narratives for subscribers.
-        </p>
-
-        <div className="max-w-2xl border border-[#EADBC8] rounded-2xl p-6 bg-[#FFFDF8] shadow-[0_6px_24px_rgba(180,140,80,0.06)]">
-          <p className="text-sm uppercase tracking-[0.15em] text-[#C97A5A] mb-2">
-            Paris Healing Arts
-          </p>
-          <h3 className="text-lg font-medium text-[#4A4136] mb-3">
-            When symptoms don’t fit into one specialty
-          </h3>
-          <p className="text-[#6A6156] text-[15px] leading-7 mb-5">
-            Preview of a FluentCRM broadcast—editorial framing for patients
-            navigating fragmented care.
-          </p>
+        <div className="grid md:grid-cols-2 gap-6 max-w-4xl">
           <a
             href="https://parishealingarts.com/?fluentcrm=1&route=email_preview&_e_hash=4778df88-90a9-4e9e-98e5-edf49504dbc4"
             target="_blank"
             rel="noopener noreferrer"
-            className="inline-block text-sm underline underline-offset-4 text-[#C97A5A] hover:text-[#A65F42]"
+            className="block border border-[#EADBC8] rounded-2xl p-6 bg-[#FFFDF8] shadow-[0_6px_24px_rgba(180,140,80,0.06)] text-inherit no-underline transition-shadow hover:shadow-[0_8px_28px_rgba(180,140,80,0.1)] hover:border-[#D4C4B0] focus:outline-none focus-visible:ring-2 focus-visible:ring-[#C97A5A] focus-visible:ring-offset-2"
           >
-            Open newsletter preview →
+            <p className="text-lg font-medium text-[#4A4136] leading-snug underline underline-offset-4 decoration-[#C97A5A]/40">
+              When symptoms don’t fit into one specialty
+            </p>
+          </a>
+
+          <a
+            href="https://parishealingarts.com/?fluentcrm=1&route=email_preview&_e_hash=40c008aa-6f2d-4f0f-bd4d-cff01a71f1d3"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="block border border-[#EADBC8] rounded-2xl p-6 bg-[#FFFDF8] shadow-[0_6px_24px_rgba(180,140,80,0.06)] text-inherit no-underline transition-shadow hover:shadow-[0_8px_28px_rgba(180,140,80,0.1)] hover:border-[#D4C4B0] focus:outline-none focus-visible:ring-2 focus-visible:ring-[#C97A5A] focus-visible:ring-offset-2"
+          >
+            <p className="text-lg font-medium text-[#4A4136] leading-snug underline underline-offset-4 decoration-[#C97A5A]/40">
+              Supporting Your Body’s Natural GLP-1
+            </p>
           </a>
         </div>
       </section>
