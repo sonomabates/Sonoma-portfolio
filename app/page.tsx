@@ -1,5 +1,4 @@
 import Script from "next/script";
-import Link from "next/link";
 
 const parisEmbed1 = `
 <blockquote class="instagram-media" data-instgrm-captioned data-instgrm-permalink="https://www.instagram.com/p/DTTLjoij3aB/?utm_source=ig_embed&amp;utm_campaign=loading" data-instgrm-version="14" style=" background:#FFF; border:0; border-radius:12px; box-shadow:0 0 1px 0 rgba(0,0,0,0.08),0 8px 24px 0 rgba(120,90,40,0.08); margin: 1px; max-width:540px; min-width:326px; padding:0; width:99.375%; width:-webkit-calc(100% - 2px); width:calc(100% - 2px);">
@@ -74,20 +73,6 @@ const kirbyEmbed2 = `
 export default function Home() {
   return (
     <main className="bg-[#FBF6EE] text-[#3B342B]">
-      <nav className="max-w-6xl mx-auto px-6 py-6 flex items-center justify-between">
-        <Link
-          href="/"
-          className="text-sm uppercase tracking-[0.2em] text-[#C97A5A]"
-        >
-          Sonoma Bates
-        </Link>
-
-        <div className="flex items-center gap-6 text-sm text-[#6A6156]">
-          <Link href="/">Home</Link>
-          <Link href="/paris">Paris</Link>
-        </div>
-      </nav>
-
       <section className="max-w-6xl mx-auto px-6 py-24 bg-gradient-to-b from-[#FFF6E8] to-[#FBF6EE]">
         <p className="text-sm uppercase tracking-[0.2em] text-[#C97A5A] mb-4">
           Sonoma Bates
@@ -110,43 +95,73 @@ export default function Home() {
         </h2>
 
         <div className="grid md:grid-cols-2 gap-6">
-          <div className="border border-[#EADBC8] rounded-2xl p-6 bg-[#FFFDF8] shadow-[0_6px_24px_rgba(180,140,80,0.08)]">
-            <h3 className="text-xl font-medium">Kirby School</h3>
+          <a
+            href="#work-kirby"
+            className="group block border border-[#EADBC8] rounded-2xl p-6 bg-[#FFFDF8] shadow-[0_6px_24px_rgba(180,140,80,0.08)] transition-shadow hover:shadow-[0_10px_32px_rgba(180,140,80,0.14)] hover:border-[#D4C4B0] text-inherit no-underline focus:outline-none focus-visible:ring-2 focus-visible:ring-[#C97A5A] focus-visible:ring-offset-2"
+          >
+            <h3 className="text-xl font-medium text-[#4A4136] group-hover:text-[#C97A5A] transition-colors">
+              Kirby School
+            </h3>
             <p className="mt-3 text-[#6A6156] leading-7">
               Led multi-channel communications across newsletter, web, events,
               and enrollment marketing—shaping a consistent voice and
               strengthening community engagement.
             </p>
-          </div>
+            <p className="mt-4 text-sm text-[#C97A5A]">View social media →</p>
+          </a>
 
-          <div className="border border-[#EADBC8] rounded-2xl p-6 bg-[#FFFDF8] shadow-[0_6px_24px_rgba(180,140,80,0.08)]">
-            <h3 className="text-xl font-medium">Paris Healing Arts</h3>
+          <a
+            href="#work-paris"
+            className="group block border border-[#EADBC8] rounded-2xl p-6 bg-[#FFFDF8] shadow-[0_6px_24px_rgba(180,140,80,0.08)] transition-shadow hover:shadow-[0_10px_32px_rgba(180,140,80,0.14)] hover:border-[#D4C4B0] text-inherit no-underline focus:outline-none focus-visible:ring-2 focus-visible:ring-[#C97A5A] focus-visible:ring-offset-2"
+          >
+            <h3 className="text-xl font-medium text-[#4A4136] group-hover:text-[#C97A5A] transition-colors">
+              Paris Healing Arts
+            </h3>
             <p className="mt-3 text-[#6A6156] leading-7">
               Developed content strategy across blog, email, and social to
               translate complex microbiome and metabolic health concepts into
               clear, actionable narratives.
             </p>
-          </div>
+            <p className="mt-4 text-sm text-[#C97A5A]">View social media →</p>
+          </a>
 
-          <div className="border border-[#EADBC8] rounded-2xl p-6 bg-[#FFFDF8] shadow-[0_6px_24px_rgba(180,140,80,0.08)]">
-            <h3 className="text-xl font-medium">Social Media & Campaigns</h3>
+          <a
+            href="#work-campaigns"
+            className="group block border border-[#EADBC8] rounded-2xl p-6 bg-[#FFFDF8] shadow-[0_6px_24px_rgba(180,140,80,0.08)] transition-shadow hover:shadow-[0_10px_32px_rgba(180,140,80,0.14)] hover:border-[#D4C4B0] text-inherit no-underline focus:outline-none focus-visible:ring-2 focus-visible:ring-[#C97A5A] focus-visible:ring-offset-2"
+          >
+            <h3 className="text-xl font-medium text-[#4A4136] group-hover:text-[#C97A5A] transition-colors">
+              Social Media & Campaigns
+            </h3>
             <p className="mt-3 text-[#6A6156] leading-7">
               Designed educational and narrative-driven content systems
               optimized for engagement, clarity, and audience trust.
             </p>
-          </div>
+            <p className="mt-4 text-sm text-[#6A6156]">
+              Samples coming soon — Kirby and Paris on this page show live
+              social work.
+            </p>
+          </a>
 
-          <div className="border border-[#EADBC8] rounded-2xl p-6 bg-[#FFFDF8] shadow-[0_6px_24px_rgba(180,140,80,0.08)]">
-            <h3 className="text-xl font-medium">Email & Newsletter Strategy</h3>
+          <a
+            href="#work-newsletter"
+            className="group block border border-[#EADBC8] rounded-2xl p-6 bg-[#FFFDF8] shadow-[0_6px_24px_rgba(180,140,80,0.08)] transition-shadow hover:shadow-[0_10px_32px_rgba(180,140,80,0.14)] hover:border-[#D4C4B0] text-inherit no-underline focus:outline-none focus-visible:ring-2 focus-visible:ring-[#C97A5A] focus-visible:ring-offset-2"
+          >
+            <h3 className="text-xl font-medium text-[#4A4136] group-hover:text-[#C97A5A] transition-colors">
+              Email & Newsletter Strategy
+            </h3>
             <p className="mt-3 text-[#6A6156] leading-7">
               Built high-frequency and campaign-based email communications that
               inform, retain, and guide audiences toward action.
             </p>
-          </div>
+            <p className="mt-4 text-sm text-[#6A6156]">Samples coming soon.</p>
+          </a>
         </div>
       </section>
 
-      <section className="max-w-6xl mx-auto px-6 py-16 bg-[#EAF2FB] border-t border-[#D6E3F3]">
+      <section
+        id="work-kirby"
+        className="max-w-6xl mx-auto px-6 py-16 bg-[#EAF2FB] border-t border-[#D6E3F3] scroll-mt-6"
+      >
         <div className="h-px w-12 bg-[#3A5A7A] mb-6"></div>
 
         <h2 className="text-[22px] font-medium mb-4 text-[#3A5A7A] tracking-tight">
@@ -182,7 +197,10 @@ export default function Home() {
         </a>
       </section>
 
-      <section className="max-w-6xl mx-auto px-6 py-16 bg-[#F6E9D8] border-t border-[#EADBC8]">
+      <section
+        id="work-paris"
+        className="max-w-6xl mx-auto px-6 py-16 bg-[#F6E9D8] border-t border-[#EADBC8] scroll-mt-6"
+      >
         <div className="h-px w-12 bg-[#E3A857] mb-6"></div>
 
         <h2 className="text-[22px] font-medium mb-4 text-[#4A4136] tracking-tight">
@@ -217,6 +235,33 @@ export default function Home() {
         >
           View more from Paris Healing Arts →
         </a>
+      </section>
+
+      <section
+        id="work-campaigns"
+        className="max-w-6xl mx-auto px-6 py-16 bg-[#FFFDF8] border-t border-[#EADBC8] scroll-mt-6"
+      >
+        <h2 className="text-2xl font-semibold mb-4 text-[#4A4136]">
+          Social Media & Campaigns
+        </h2>
+        <p className="text-[#6A6156] max-w-2xl leading-8">
+          Cross-industry social systems and campaign work will live here. For
+          now, explore the Kirby School and Paris Healing Arts sections for live
+          social examples.
+        </p>
+      </section>
+
+      <section
+        id="work-newsletter"
+        className="max-w-6xl mx-auto px-6 py-16 bg-[#FBF6EE] border-t border-[#EADBC8] scroll-mt-6"
+      >
+        <h2 className="text-2xl font-semibold mb-4 text-[#4A4136]">
+          Email & Newsletter Strategy
+        </h2>
+        <p className="text-[#6A6156] max-w-2xl leading-8">
+          Newsletter layouts, sequences, and institutional email samples are on
+          the way.
+        </p>
       </section>
 
       <section className="max-w-6xl mx-auto px-6 py-16 bg-[#FFFDF8] border-t border-[#EADBC8]">
