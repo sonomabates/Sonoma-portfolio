@@ -120,7 +120,7 @@ export default function Home() {
               Built high-frequency and campaign-based email communications that
               inform, retain, and guide audiences toward action.
             </p>
-            <p className="mt-4 text-sm text-[#6A6156]">Samples coming soon.</p>
+            <p className="mt-4 text-sm text-[#C97A5A]">View newsletter sample →</p>
           </a>
         </div>
       </section>
@@ -221,13 +221,36 @@ export default function Home() {
         id="work-newsletter"
         className="max-w-6xl mx-auto px-6 py-16 bg-[#FBF6EE] border-t border-[#EADBC8] scroll-mt-6"
       >
+        <div className="h-px w-12 bg-[#C97A5A] mb-6"></div>
+
         <h2 className="text-2xl font-semibold mb-4 text-[#4A4136]">
           Email & Newsletter Strategy
         </h2>
-        <p className="text-[#6A6156] max-w-2xl leading-8">
-          Newsletter layouts, sequences, and institutional email samples are on
-          the way.
+        <p className="text-[#6A6156] max-w-2xl leading-8 mb-8">
+          Campaign and educational newsletters that translate complex topics
+          into clear, actionable narratives for subscribers.
         </p>
+
+        <div className="max-w-2xl border border-[#EADBC8] rounded-2xl p-6 bg-[#FFFDF8] shadow-[0_6px_24px_rgba(180,140,80,0.06)]">
+          <p className="text-sm uppercase tracking-[0.15em] text-[#C97A5A] mb-2">
+            Paris Healing Arts
+          </p>
+          <h3 className="text-lg font-medium text-[#4A4136] mb-3">
+            When symptoms don’t fit into one specialty
+          </h3>
+          <p className="text-[#6A6156] text-[15px] leading-7 mb-5">
+            Preview of a FluentCRM broadcast—editorial framing for patients
+            navigating fragmented care.
+          </p>
+          <a
+            href="https://parishealingarts.com/?fluentcrm=1&route=email_preview&_e_hash=4778df88-90a9-4e9e-98e5-edf49504dbc4"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="inline-block text-sm underline underline-offset-4 text-[#C97A5A] hover:text-[#A65F42]"
+          >
+            Open newsletter preview →
+          </a>
+        </div>
       </section>
 
       <section className="max-w-6xl mx-auto px-6 py-16 bg-[#FFFDF8] border-t border-[#EADBC8]">
