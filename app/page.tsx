@@ -96,36 +96,6 @@ export default function Home() {
 
         <div className="grid md:grid-cols-2 gap-6">
           <a
-            href="#work-kirby"
-            className="group block border border-[#EADBC8] rounded-2xl p-6 bg-[#FFFDF8] shadow-[0_6px_24px_rgba(180,140,80,0.08)] transition-shadow hover:shadow-[0_10px_32px_rgba(180,140,80,0.14)] hover:border-[#D4C4B0] text-inherit no-underline focus:outline-none focus-visible:ring-2 focus-visible:ring-[#C97A5A] focus-visible:ring-offset-2"
-          >
-            <h3 className="text-xl font-medium text-[#4A4136] group-hover:text-[#C97A5A] transition-colors">
-              Kirby School
-            </h3>
-            <p className="mt-3 text-[#6A6156] leading-7">
-              Led multi-channel communications across newsletter, web, events,
-              and enrollment marketing—shaping a consistent voice and
-              strengthening community engagement.
-            </p>
-            <p className="mt-4 text-sm text-[#C97A5A]">View social media →</p>
-          </a>
-
-          <a
-            href="#work-paris"
-            className="group block border border-[#EADBC8] rounded-2xl p-6 bg-[#FFFDF8] shadow-[0_6px_24px_rgba(180,140,80,0.08)] transition-shadow hover:shadow-[0_10px_32px_rgba(180,140,80,0.14)] hover:border-[#D4C4B0] text-inherit no-underline focus:outline-none focus-visible:ring-2 focus-visible:ring-[#C97A5A] focus-visible:ring-offset-2"
-          >
-            <h3 className="text-xl font-medium text-[#4A4136] group-hover:text-[#C97A5A] transition-colors">
-              Paris Healing Arts
-            </h3>
-            <p className="mt-3 text-[#6A6156] leading-7">
-              Developed content strategy across blog, email, and social to
-              translate complex microbiome and metabolic health concepts into
-              clear, actionable narratives.
-            </p>
-            <p className="mt-4 text-sm text-[#C97A5A]">View social media →</p>
-          </a>
-
-          <a
             href="#work-social"
             className="group block border border-[#EADBC8] rounded-2xl p-6 bg-[#FFFDF8] shadow-[0_6px_24px_rgba(180,140,80,0.08)] transition-shadow hover:shadow-[0_10px_32px_rgba(180,140,80,0.14)] hover:border-[#D4C4B0] text-inherit no-underline focus:outline-none focus-visible:ring-2 focus-visible:ring-[#C97A5A] focus-visible:ring-offset-2"
           >
