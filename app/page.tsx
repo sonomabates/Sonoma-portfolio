@@ -95,13 +95,12 @@ export default function Home() {
         </p>
 
         <h1 className="text-4xl md:text-6xl font-semibold leading-tight max-w-4xl">
-          Strategic communications for schools, founders, and health brands.
+          Good stories, told well.
         </h1>
 
         <p className="mt-6 text-lg text-[#6A6156] max-w-2xl leading-8">
-          I build content systems that clarify ideas, strengthen trust, and
-          drive meaningful engagement—across social media, email, and long-form
-          storytelling.
+          I create content across social, email, and editorial that connects
+          with real audiences and drives meaningful engagement.
         </p>
       </section>
 
