@@ -223,10 +223,14 @@ export default function Home() {
       >
         <div className="h-px w-12 bg-[#C97A5A] mb-6"></div>
 
-        <h2 className="text-2xl font-semibold mb-4 text-[#4A4136]">
+        <h2 className="text-2xl font-semibold mb-8 text-[#4A4136]">
           Email & Newsletter Strategy
         </h2>
-        <div className="grid md:grid-cols-2 gap-6 max-w-4xl">
+
+        <p className="text-sm uppercase tracking-[0.15em] text-[#C97A5A] mb-6">
+          Paris Healing Arts
+        </p>
+        <div className="grid md:grid-cols-2 gap-6 max-w-4xl mb-14">
           <a
             href="https://parishealingarts.com/?fluentcrm=1&route=email_preview&_e_hash=4778df88-90a9-4e9e-98e5-edf49504dbc4"
             target="_blank"
@@ -246,6 +250,33 @@ export default function Home() {
           >
             <p className="text-lg font-medium text-[#4A4136] leading-snug underline underline-offset-4 decoration-[#C97A5A]/40">
               Supporting Your Body’s Natural GLP-1
+            </p>
+          </a>
+        </div>
+
+        <p className="text-sm uppercase tracking-[0.15em] text-[#3A5A7A] mb-6">
+          Kirby School
+        </p>
+        <div className="grid md:grid-cols-2 gap-6 max-w-4xl">
+          <a
+            href="https://kirby.myschoolapp.com/podium/push/default.aspx?i=744271&s=1421&snd=2fe2d7dc-209c-4610-90c0-3d76cf03c95a"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="block border border-[#D6E3F3] rounded-2xl p-6 bg-white shadow-[0_6px_24px_rgba(60,90,130,0.08)] text-inherit no-underline transition-shadow hover:shadow-[0_10px_28px_rgba(60,90,130,0.12)] hover:border-[#B8CCE0] focus:outline-none focus-visible:ring-2 focus-visible:ring-[#3A5A7A] focus-visible:ring-offset-2"
+          >
+            <p className="text-lg font-medium text-[#3A5A7A] leading-snug underline underline-offset-4 decoration-[#3A5A7A]/35">
+              The Wave: March 11, 2026
+            </p>
+          </a>
+
+          <a
+            href="https://kirby.myschoolapp.com/podium/push/default.aspx?i=742036&s=1421&snd=89fc3cdb-7f63-4083-9c9b-c7fb15be9146"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="block border border-[#D6E3F3] rounded-2xl p-6 bg-white shadow-[0_6px_24px_rgba(60,90,130,0.08)] text-inherit no-underline transition-shadow hover:shadow-[0_10px_28px_rgba(60,90,130,0.12)] hover:border-[#B8CCE0] focus:outline-none focus-visible:ring-2 focus-visible:ring-[#3A5A7A] focus-visible:ring-offset-2"
+          >
+            <p className="text-lg font-medium text-[#3A5A7A] leading-snug underline underline-offset-4 decoration-[#3A5A7A]/35">
+              The Wave: February 25, 2026
             </p>
           </a>
         </div>
