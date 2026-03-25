@@ -370,18 +370,19 @@ export default function Home() {
         <h2 className="text-2xl font-semibold mb-8 text-[#4A4136]">About</h2>
 
         <p className="text-[#6A6156] max-w-3xl leading-8">
-          I’m a communications strategist and marketer focused on making ideas
-          clear and worth paying attention to.
+          I’m a communications strategist and marketer focused on helping people
+          say what they mean—and say it well.
         </p>
 
         <p className="text-[#6A6156] max-w-3xl leading-8 mt-4">
-          My work spans social, email, and long-form—often translating complex
-          topics into content that feels authentic.
+          I work across social, email, and long-form, often translating complex
+          ideas into content that feels clear, natural, and grounded in real
+          voice.
         </p>
 
         <p className="text-[#6A6156] max-w-3xl leading-8 mt-4">
-          Across different contexts, the goal is the same: say something real,
-          say it well, and make sure it reaches the people it’s meant for.
+          Most of my work is with small teams and founders, where getting the
+          tone right matters just as much as getting the message out.
         </p>
       </section>
 
