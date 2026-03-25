@@ -126,7 +126,7 @@ export default function Home() {
           </a>
 
           <a
-            href="#work-campaigns"
+            href="#work-social"
             className="group block border border-[#EADBC8] rounded-2xl p-6 bg-[#FFFDF8] shadow-[0_6px_24px_rgba(180,140,80,0.08)] transition-shadow hover:shadow-[0_10px_32px_rgba(180,140,80,0.14)] hover:border-[#D4C4B0] text-inherit no-underline focus:outline-none focus-visible:ring-2 focus-visible:ring-[#C97A5A] focus-visible:ring-offset-2"
           >
             <h3 className="text-xl font-medium text-[#4A4136] group-hover:text-[#C97A5A] transition-colors">
@@ -136,10 +136,7 @@ export default function Home() {
               Designed educational and narrative-driven content systems
               optimized for engagement, clarity, and audience trust.
             </p>
-            <p className="mt-4 text-sm text-[#6A6156]">
-              Samples coming soon — Kirby and Paris on this page show live
-              social work.
-            </p>
+            <p className="mt-4 text-sm text-[#C97A5A]">View social media →</p>
           </a>
 
           <a
@@ -159,96 +156,95 @@ export default function Home() {
       </section>
 
       <section
-        id="work-kirby"
-        className="max-w-6xl mx-auto px-6 py-16 bg-[#EAF2FB] border-t border-[#D6E3F3] scroll-mt-6"
-      >
-        <div className="h-px w-12 bg-[#3A5A7A] mb-6"></div>
-
-        <h2 className="text-[22px] font-medium mb-4 text-[#3A5A7A] tracking-tight">
-          Kirby School — Social Media
-        </h2>
-
-        <p className="text-[17px] text-[#4F6B85] max-w-xl leading-[1.75] mb-10">
-          A selection of social and editorial content created to capture the
-          energy, intellectual life, and sense of community at Kirby School.
-          This work blends storytelling, event promotion, and institutional
-          voice.
-        </p>
-
-        <div className="grid md:grid-cols-2 gap-8">
-          <div
-            className="bg-white rounded-2xl p-8 shadow-[0_6px_24px_rgba(60,90,130,0.08)] border border-[#D6E3F3]"
-            dangerouslySetInnerHTML={{ __html: kirbyEmbed1 }}
-          />
-
-          <div
-            className="bg-white rounded-2xl p-8 shadow-[0_6px_24px_rgba(60,90,130,0.08)] border border-[#D6E3F3]"
-            dangerouslySetInnerHTML={{ __html: kirbyEmbed2 }}
-          />
-        </div>
-
-        <a
-          href="https://www.instagram.com/kirbyschool/?hl=en"
-          target="_blank"
-          rel="noopener noreferrer"
-          className="inline-block mt-8 text-sm underline underline-offset-4 text-[#3A5A7A] hover:text-[#2B4460]"
-        >
-          View more from Kirby School →
-        </a>
-      </section>
-
-      <section
-        id="work-paris"
-        className="max-w-6xl mx-auto px-6 py-16 bg-[#F6E9D8] border-t border-[#EADBC8] scroll-mt-6"
-      >
-        <div className="h-px w-12 bg-[#E3A857] mb-6"></div>
-
-        <h2 className="text-[22px] font-medium mb-4 text-[#4A4136] tracking-tight">
-          Paris Healing Arts — Social Media
-        </h2>
-
-        <p className="text-[17px] text-[#6A6156] max-w-xl leading-[1.75] mb-10">
-          A selection of educational and narrative-driven content created for
-          Paris Healing Arts. Since October 1, 2025, I have led the social
-          media strategy and execution, translating complex topics in
-          microbiome, metabolic, and women’s health into clear, engaging, and
-          accessible storytelling.
-        </p>
-
-        <div className="grid md:grid-cols-2 gap-8">
-          <div
-            className="bg-[#FFFDF8] rounded-2xl overflow-hidden shadow-[0_6px_24px_rgba(180,140,80,0.08)]"
-            dangerouslySetInnerHTML={{ __html: parisEmbed1 }}
-          />
-
-          <div
-            className="bg-[#FFFDF8] rounded-2xl overflow-hidden shadow-[0_6px_24px_rgba(180,140,80,0.08)]"
-            dangerouslySetInnerHTML={{ __html: parisEmbed2 }}
-          />
-        </div>
-
-        <a
-          href="https://www.instagram.com/dr.lauraparis/"
-          target="_blank"
-          rel="noopener noreferrer"
-          className="inline-block mt-8 text-sm underline underline-offset-4 text-[#E3A857] hover:text-[#C97A5A]"
-        >
-          View more from Paris Healing Arts →
-        </a>
-      </section>
-
-      <section
-        id="work-campaigns"
+        id="work-social"
         className="max-w-6xl mx-auto px-6 py-16 bg-[#FFFDF8] border-t border-[#EADBC8] scroll-mt-6"
       >
-        <h2 className="text-2xl font-semibold mb-4 text-[#4A4136]">
-          Social Media & Campaigns
+        <div className="h-px w-12 bg-[#C97A5A] mb-6"></div>
+
+        <h2 className="text-2xl font-semibold mb-4 text-[#4A4136] tracking-tight">
+          Social Media
         </h2>
-        <p className="text-[#6A6156] max-w-2xl leading-8">
-          Cross-industry social systems and campaign work will live here. For
-          now, explore the Kirby School and Paris Healing Arts sections for live
-          social examples.
+
+        <p className="text-[17px] text-[#6A6156] max-w-2xl leading-[1.75] mb-16">
+          Instagram and social content for schools and health brands—event
+          promotion, education, and voice-driven storytelling.
         </p>
+
+        <div id="work-kirby" className="scroll-mt-6">
+          <div className="h-px w-12 bg-[#3A5A7A] mb-6"></div>
+
+          <h3 className="text-[22px] font-medium mb-4 text-[#3A5A7A] tracking-tight">
+            Kirby School
+          </h3>
+
+          <p className="text-[17px] text-[#4F6B85] max-w-xl leading-[1.75] mb-10">
+            A selection of social and editorial content created to capture the
+            energy, intellectual life, and sense of community at Kirby School.
+            This work blends storytelling, event promotion, and institutional
+            voice.
+          </p>
+
+          <div className="grid md:grid-cols-2 gap-8">
+            <div
+              className="bg-white rounded-2xl p-8 shadow-[0_6px_24px_rgba(60,90,130,0.08)] border border-[#D6E3F3]"
+              dangerouslySetInnerHTML={{ __html: kirbyEmbed1 }}
+            />
+
+            <div
+              className="bg-white rounded-2xl p-8 shadow-[0_6px_24px_rgba(60,90,130,0.08)] border border-[#D6E3F3]"
+              dangerouslySetInnerHTML={{ __html: kirbyEmbed2 }}
+            />
+          </div>
+
+          <a
+            href="https://www.instagram.com/kirbyschool/?hl=en"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="inline-block mt-8 text-sm underline underline-offset-4 text-[#3A5A7A] hover:text-[#2B4460]"
+          >
+            View more from Kirby School →
+          </a>
+        </div>
+
+        <div
+          id="work-paris"
+          className="mt-16 pt-16 border-t border-[#EADBC8] scroll-mt-6"
+        >
+          <div className="h-px w-12 bg-[#E3A857] mb-6"></div>
+
+          <h3 className="text-[22px] font-medium mb-4 text-[#4A4136] tracking-tight">
+            Paris Healing Arts
+          </h3>
+
+          <p className="text-[17px] text-[#6A6156] max-w-xl leading-[1.75] mb-10">
+            A selection of educational and narrative-driven content created for
+            Paris Healing Arts. Since October 1, 2025, I have led the social
+            media strategy and execution, translating complex topics in
+            microbiome, metabolic, and women’s health into clear, engaging, and
+            accessible storytelling.
+          </p>
+
+          <div className="grid md:grid-cols-2 gap-8">
+            <div
+              className="bg-[#FFFEF9] rounded-2xl overflow-hidden shadow-[0_6px_24px_rgba(180,140,80,0.08)] border border-[#EADBC8]"
+              dangerouslySetInnerHTML={{ __html: parisEmbed1 }}
+            />
+
+            <div
+              className="bg-[#FFFEF9] rounded-2xl overflow-hidden shadow-[0_6px_24px_rgba(180,140,80,0.08)] border border-[#EADBC8]"
+              dangerouslySetInnerHTML={{ __html: parisEmbed2 }}
+            />
+          </div>
+
+          <a
+            href="https://www.instagram.com/dr.lauraparis/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="inline-block mt-8 text-sm underline underline-offset-4 text-[#E3A857] hover:text-[#C97A5A]"
+          >
+            View more from Paris Healing Arts →
+          </a>
+        </div>
       </section>
 
       <section
