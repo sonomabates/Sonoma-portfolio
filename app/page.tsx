@@ -105,9 +105,13 @@ export default function Home() {
       </section>
 
       <section className="max-w-6xl mx-auto px-6 py-16 bg-[#FFFDF8] border-t border-[#EADBC8]">
-        <h2 className="text-2xl font-semibold mb-8 text-[#4A4136]">
+        <h2 className="text-2xl font-semibold mb-4 text-[#4A4136]">
           Selected Work
         </h2>
+        <p className="text-[#6A6156] max-w-3xl leading-8 mb-10">
+          A selection of work across social, email, and editorial, each piece
+          built to clarify an idea and connect with a specific audience.
+        </p>
 
         <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
           <a
@@ -118,8 +122,8 @@ export default function Home() {
               Social Media & Campaigns
             </h3>
             <p className="mt-3 text-[#6A6156] leading-7">
-              Designed educational and narrative-driven content systems
-              optimized for engagement, clarity, and audience trust.
+              Social content that balances clarity, voice, and timing, built to
+              engage audiences
             </p>
             <p className="mt-4 text-sm text-[#C97A5A]">View social media →</p>
           </a>
@@ -132,8 +136,8 @@ export default function Home() {
               Email & Newsletter Strategy
             </h3>
             <p className="mt-3 text-[#6A6156] leading-7">
-              Built high-frequency and campaign-based email communications that
-              inform, retain, and guide audiences toward action.
+              Emails and newsletters that are clear, consistent, and built to
+              keep an audience engaged over time.
             </p>
             <p className="mt-4 text-sm text-[#C97A5A]">View newsletter sample →</p>
           </a>
@@ -143,12 +147,12 @@ export default function Home() {
             className="group block border border-[#EADBC8] rounded-2xl p-6 bg-[#FFFDF8] shadow-[0_6px_24px_rgba(180,140,80,0.08)] transition-shadow hover:shadow-[0_10px_32px_rgba(180,140,80,0.14)] hover:border-[#D4C4B0] text-inherit no-underline focus:outline-none focus-visible:ring-2 focus-visible:ring-[#C97A5A] focus-visible:ring-offset-2 sm:col-span-2 lg:col-span-1"
           >
             <h3 className="text-xl font-medium text-[#4A4136] group-hover:text-[#C97A5A] transition-colors">
-              Blog & long-form
+              Blog & Long-form
             </h3>
             <p className="mt-3 text-[#6A6156] leading-7">
-              Educational articles that unpack complex health topics for a
-              general audience—clear structure, strong voice, and SEO-aware
-              framing.
+              Long-form writing that makes complex topics accessible,
+              structured, voice-driven, and grounded in what readers actually
+              want to understand.
             </p>
             <p className="mt-4 text-sm text-[#C97A5A]">View writing samples →</p>
           </a>
@@ -178,10 +182,9 @@ export default function Home() {
           </h3>
 
           <p className="text-[17px] text-[#4F6B85] max-w-xl leading-[1.75] mb-10">
-            A selection of social and editorial content created to capture the
-            energy, intellectual life, and sense of community at Kirby School.
-            This work blends storytelling, event promotion, and institutional
-            voice.
+            Social and editorial work capturing the energy and voice of a school
+            community, balancing storytelling, event promotion, and day-to-day
+            communication.
           </p>
 
           <div className="grid md:grid-cols-2 gap-8">
@@ -220,8 +223,8 @@ export default function Home() {
             A selection of educational and narrative-driven content created for
             Paris Healing Arts. Since October 1, 2025, I have led the social
             media strategy and execution, translating complex topics in
-            microbiome, metabolic, and women’s health into clear, engaging, and
-            accessible storytelling.
+            microbiome, metabolic, and women’s health into clear, engaging
+            writing for a general audience.
           </p>
 
           <div className="grid md:grid-cols-2 gap-8">
@@ -319,11 +322,11 @@ export default function Home() {
         <div className="h-px w-12 bg-[#C97A5A] mb-6"></div>
 
         <h2 className="text-2xl font-semibold mb-4 text-[#4A4136]">
-          Blog & long-form
+          Blog & Long-form
         </h2>
         <p className="text-[#6A6156] max-w-2xl leading-8 mb-10">
-          Long-form pieces written for clinical and wellness brands—bridging
-          research, practice, and the questions patients actually ask.
+          Long-form pieces that connect research, clinical practice, and the
+          questions people are actually asking.
         </p>
 
         <p className="text-sm uppercase tracking-[0.15em] text-[#C97A5A] mb-6">
@@ -367,18 +370,18 @@ export default function Home() {
         <h2 className="text-2xl font-semibold mb-8 text-[#4A4136]">About</h2>
 
         <p className="text-[#6A6156] max-w-3xl leading-8">
-          My work sits at the intersection of editorial thinking and strategic
-          communication. I specialize in helping organizations articulate what
-          they do, why it matters, and how to engage the audiences they care
-          about most.
+          I’m a communications strategist and marketer focused on making ideas
+          clear and worth paying attention to.
         </p>
 
         <p className="text-[#6A6156] max-w-3xl leading-8 mt-4">
-          Across education and health, I’ve developed content that translates
-          complexity into clarity—whether that’s explaining the role of the
-          microbiome, shaping institutional messaging around emerging
-          technology, or building systems that make communication more
-          consistent and effective over time.
+          My work spans social, email, and long-form—often translating complex
+          topics into content that feels authentic.
+        </p>
+
+        <p className="text-[#6A6156] max-w-3xl leading-8 mt-4">
+          Across different contexts, the goal is the same: say something real,
+          say it well, and make sure it reaches the people it’s meant for.
         </p>
       </section>
 
