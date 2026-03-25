@@ -171,6 +171,15 @@ export default function Home() {
             dangerouslySetInnerHTML={{ __html: kirbyEmbed2 }}
           />
         </div>
+
+        <a
+          href="https://www.instagram.com/kirbyschool/?hl=en"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="inline-block mt-8 text-sm underline underline-offset-4 text-[#3A5A7A] hover:text-[#2B4460]"
+        >
+          View more from Kirby School →
+        </a>
       </section>
 
       <section className="max-w-6xl mx-auto px-6 py-16 bg-[#F6E9D8] border-t border-[#EADBC8]">
