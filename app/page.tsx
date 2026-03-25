@@ -1,12 +1,12 @@
-import Image from "next/image";
 import Script from "next/script";
 
 const parisBlogPosts = [
   {
     href: "https://parishealingarts.com/why-the-gut-microbiome-matters-more-than-youve-been-told/",
     title: "Why the Gut Microbiome Matters More Than You’ve Been Told",
+    // Featured file from og:image 404s; this asset appears on the live post and returns 200.
     image:
-      "https://parishealingarts.com/wp-content/uploads/2025/09/Why-Your-Gut-Health-Matters-More-than-Youve-Been-Told-3.webp",
+      "https://parishealingarts.com/wp-content/uploads/2025/10/functional_medicine_abstract_gut_microbiome_banner-1-800x436.webp",
   },
   {
     href: "https://parishealingarts.com/when-gut-bugs-go-rogue-understanding-dysbiosis/",
@@ -340,14 +340,15 @@ export default function Home() {
               rel="noopener noreferrer"
               className="group block overflow-hidden rounded-2xl border border-[#EADBC8] bg-[#FFFDF8] shadow-[0_6px_24px_rgba(180,140,80,0.08)] transition-shadow hover:shadow-[0_12px_32px_rgba(180,140,80,0.14)] hover:border-[#D4C4B0] text-inherit no-underline focus:outline-none focus-visible:ring-2 focus-visible:ring-[#C97A5A] focus-visible:ring-offset-2"
             >
-              <div className="relative aspect-[16/10] w-full min-h-[160px] bg-[#F4EDE3]">
-                <Image
+              <div className="relative aspect-[16/10] w-full overflow-hidden bg-[#F4EDE3]">
+                <img
                   src={post.image}
                   alt={post.title}
-                  fill
-                  unoptimized
-                  className="object-cover transition-transform duration-300 group-hover:scale-[1.02]"
-                  sizes="(max-width: 640px) 100vw, 50vw"
+                  width={800}
+                  height={436}
+                  loading="lazy"
+                  decoding="async"
+                  className="absolute inset-0 h-full w-full object-cover transition-transform duration-300 group-hover:scale-[1.02]"
                 />
               </div>
               <div className="p-5">
