@@ -14,6 +14,12 @@ const parisBlogPosts = [
     image:
       "https://parishealingarts.com/wp-content/uploads/2025/10/DX-SIBO.webp",
   },
+  {
+    href: "https://lookout.co/not-just-in-your-head-the-medicine-that-finally-makes-sense-of-womens-symptoms/story",
+    title:
+      "Not just in your head: The medicine that finally makes sense of women’s symptoms",
+    image: "https://lookout.co/wp-content/uploads/2026/03/Laura-and-Lily.png",
+  },
 ] as const;
 
 const parisEmbed1 = `
