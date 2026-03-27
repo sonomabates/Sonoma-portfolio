@@ -7,18 +7,24 @@ const parisBlogPosts = [
     // Featured file from og:image 404s; this asset appears on the live post and returns 200.
     image:
       "https://parishealingarts.com/wp-content/uploads/2025/10/functional_medicine_abstract_gut_microbiome_banner-1-800x436.webp",
+    sourceLabel: "parishealingarts.com",
+    sponsored: false,
   },
   {
     href: "https://parishealingarts.com/when-gut-bugs-go-rogue-understanding-dysbiosis/",
     title: "When Gut Bugs Go Rogue: Understanding Dysbiosis",
     image:
       "https://parishealingarts.com/wp-content/uploads/2025/10/DX-SIBO.webp",
+    sourceLabel: "parishealingarts.com",
+    sponsored: false,
   },
   {
     href: "https://lookout.co/not-just-in-your-head-the-medicine-that-finally-makes-sense-of-womens-symptoms/story",
     title:
       "Not just in your head: The medicine that finally makes sense of women’s symptoms",
     image: "https://lookout.co/wp-content/uploads/2026/03/Laura-and-Lily.png",
+    sourceLabel: "Lookout Santa Cruz",
+    sponsored: true,
   },
 ] as const;
 
@@ -358,13 +364,18 @@ export default function Home() {
                   decoding="async"
                   className="absolute inset-0 h-full w-full object-cover transition-transform duration-300 group-hover:scale-[1.02]"
                 />
+                {post.sponsored ? (
+                  <span className="absolute right-3 top-3 rounded-full bg-white/90 px-2.5 py-1 text-[11px] font-medium text-[#4A4136] shadow-sm">
+                    Sponsored content
+                  </span>
+                ) : null}
               </div>
               <div className="p-5">
                 <h3 className="text-lg font-medium text-[#4A4136] leading-snug group-hover:text-[#C97A5A] transition-colors">
                   {post.title}
                 </h3>
                 <p className="mt-3 text-sm text-[#C97A5A]">
-                  Read on parishealingarts.com →
+                  Read in {post.sourceLabel ?? "parishealingarts.com"} →
                 </p>
               </div>
             </a>
